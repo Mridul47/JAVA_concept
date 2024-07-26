@@ -1,4 +1,4 @@
-# JAVA_concept
+<------------------------------------Java Concepts------------------------------------>
 
 1) Case Sensitivity: 
 Java is a case sensitive language. Eg: "hello" and "Hello" are two diff thing in Java.
@@ -11,3 +11,40 @@ All Method names should start with Lower Case. Also remember if several words ar
 
 4) Program file Names:
 Name of the program file should exactly match the class name.
+
+<------------------------------------Variables and Identifiers-------------------------->
+# What are Java Identifiers?
+=> Identifiers are just the names of variables, classes, methods, packages and interfaces.
+
+#Rules of Java Identifiers:
+1) All Identifiers should begin with a letter (A to Z) or (a to z) and also like ($) or an underscore(_).
+2) A keyword cannot be used as Identifiers since they have fixed meanings.
+
+# Examples of valid and invalid identifiers.
+1) Valid Identifiers: age, $income, _siuu, __love_java, etc.
+2) Invalid Identifiers: 123abc, -income, +hp, etc.
+
+<------------------------------------Java Keywords-------------------------->
+=> Keywords have predefined meaning in Java thats why it cant be used as identifiers.
+
+List of some Java keywords are: (Source: Java Documentation of Oracle)
+Visit: [https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html]
+
+Here is a list of keywords in the Java programming language. You cannot use any of the following as identifiers in your programs. The keywords const and goto are reserved, even though they are not currently used. true, false, and null might seem like keywords, but they are actually literals; you cannot use them as identifiers in your programs.
+
+abstract	continue	for 	    new  	    switch
+assert***	default 	goto* 	    package 	synchronized
+boolean 	do  	    if  	    private 	this
+break   	double  	implements  protected   throw
+byte    	else    	import  	public  	throws
+case    	enum****	instanceof	return	    transient
+catch   	extends 	int     	short   	try
+char    	final   	interface  	static  	void
+class   	finally 	long    	strictfp**	volatile
+const*  	float   	native  	super   	while
+*	 	not used
+**	 	added in 1.2
+***	 	added in 1.4
+****	 	added in 5.0
+
+
