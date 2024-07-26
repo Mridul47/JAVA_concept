@@ -48,3 +48,22 @@ const*  	float   	native  	super   	while
 ****	 	added in 5.0
 
 
+
+<------------------------------------White Spaces in Java-------------------------->
+=> It is used for describing blanks, tabs or comments.
+=> Whitespaces are completely ignored by Java.
+=> There is a blackline also which is often used as a comment.
+
+Examples:
+=> int salary;
+
+=> Device = Laptop + Computer; //get the total device (Here you can see spaces and comments aka whitespaces and blankline which Java ignores)
+
+<------------------------------------Adding Single line comments-------------------------->
+// Single line Comment
+
+<------------------------------------Adding Multi line comments-------------------------->
+/*
+    This is multiline comment Example.
+    Hope this helps xD
+*/
