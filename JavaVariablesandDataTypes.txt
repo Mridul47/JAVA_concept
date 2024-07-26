@@ -1,0 +1,66 @@
+Source: (Javatpoint)[https://www.javatpoint.com/java-variables]
+
+<------------------------------------Variables in Java------------------------------------>
+=> Variable in Java is a data container that stores the data values during Java program execution. 
+Every variable is assigned data type which designates the type and quantity of value it can hold. 
+Variable is a memory location name of the data.
+There are 3 variable types.
+1) Local Variable
+=> A variable declared inside the body of the method is called local variable. This Variable can only
+be used  within the method. The other methods within the class aren't even aware of this variable whether
+it exists or not.
+A local variable cannot be defined with "static" keyword.
+eg:
+public class A  
+{  
+    void method()  // it is inside the method as given above
+    {    
+        int n=90;//local variable    
+    }  
+    public static void main(String args[])  
+    {  
+        // remaining code  
+    }  
+}//end of class   
+
+
+2) Instance Variable
+=> A variable declared inside the class but outside the body of the method is instance variable.
+It is not declared as static.
+It is called an instance variable because its value is instance-specific and is not shared among instances.
+eg:
+public class A{
+    public static void main(String args[])  
+    {  
+        int data=50;//instance variable    
+    }  
+}//end of class 
+
+3) Static Variable 
+=> A variable that is declared as static is called a static variable. It cannot be local. You can create a 
+single copy of the static variable and share it among all the instances of the class. Memory allocation for 
+static variables happens only once when the class is loaded in the memory.
+eg:
+public class A  
+{  
+    static int m=100;//static variable  
+    public static void main(String args[])  
+    {  
+           / remaining code
+    }  
+}/
+
+
+OVERALL EXAMPLE:
+public class A  
+{  
+    static int m=100;//static variable  
+    void method()  
+    {    
+        int n=90;//local variable    
+    }  
+    public static void main(String args[])  
+    {  
+        int data=50;//instance variable    
+    }  
+}//end of class  
