@@ -1,0 +1,13 @@
+# JAVA_concept
+
+1) Case Sensitivity: 
+Java is a case sensitive language. Eg: "hello" and "Hello" are two diff thing in Java.
+
+2) Class Names :
+While keeping the class name always remember the first letter must be in Upper Case. Eg: MyFirstJavaConcept.
+
+3) Method Names:
+All Method names should start with Lower Case. Also remember if several words are used to form the name of the method, then each inner word should have the first letter as upper case. Eg: public void myMethodsName()
+
+4) Program file Names:
+Name of the program file should exactly match the class name.

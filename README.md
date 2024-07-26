@@ -1,6 +1,5 @@
 # JAVA_concept
 
-# Case Sensitivity: 
-Java is a case sensitive language. Eg: "hello" and "Hello" are two diff thing in Java.
+# This Github repo consists the Bginner friendly guide for those aspirants who want to learn Java from Scratch. No experience Needed.
 
-# Class Names :
+# You can find notes on any .txt files mentioned in this repo.
