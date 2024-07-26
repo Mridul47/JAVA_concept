@@ -8,8 +8,9 @@
 
 1. Java_concept.txt
 2. FirstJavaProgram.java (/JavaProject/src/FirstJavaProgram.java)
-3. JavaVariablesandDataTypes.txt
+3. JavaVariables.txt
 4. JavaVariableTypes.java (/JavaProject/src/JavaVariableTypes.java)
 5. AddTwoNumbers.java (/JavaProject/src/AddTwoNumbers.java)
-6. JavaVariableWidening.java (/JavaProject/src/JavaVariableWidening.java)
-7. JavaVariableOverflow.java (/JavaProject/src/JavaVariableOverflow.java)
+6. JavaVariables.txt
+7. JavaVariableWidening.java (/JavaProject/src/JavaVariableWidening.java)
+8. JavaVariableOverflow.java (/JavaProject/src/JavaVariableOverflow.java)
