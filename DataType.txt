@@ -1,0 +1,27 @@
+<------------------------------------Data Types------------------------------------>
+=> In Java, data types tell the computer what kind of values can be stored in a variable and how much memory to use for them. 
+They are like labels that help the computer understand what kind of information is being kept in the variable, such as numbers or text.
+Java has a rich set of data types. 
+
+<------------------------------------Different Data Types in Java------------------------------------>
+=> Data types in Java can be divided into two parts :
+
+1) Primitive Data Types:
+=> Primitive Data Types are predefined and available within the Java language. Primitive values do not share state with other primitive 
+values.
+There are 8 primitive types: 
+//Integer data type
+a) byte (1 byte)
+b) short (2 bytes)
+c) int (4 bytes)
+d) long (8 bytes)
+//Floating data type
+e) float (4 bytes)
+f) double (8 bytes)
+//Textual Data Type
+g) char (2 bytes)
+//Logical data type
+h) boolean (1 byte) (true/false)
+
+2) Non-primitive Data Types :
+=> Non-primitive Data Types includes classes, arrays and interfaces.classes, arrays and interfaces.
