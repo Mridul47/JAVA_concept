@@ -1,4 +1,3 @@
-
 public class FirstJavaProgram {
     //This is the first Java program as single line comment example
 
