@@ -1,0 +1,82 @@
+Source: ChatGPT (with my custom instruction)
+<------------------------------------Introduction of Loops In Java------------------------------------>
+=> There are mainly 3 types of loops in Java.
+
+1) for loop
+=> The Java for loop is used to repeat a part of your program multiple times. 
+If you know exactly how many times you want to repeat something, it's best to use a for loop.
+
+How a For Loop Works:
+a) Initialization: Set a starting point.
+b) Condition: Decide when to stop.
+c) Update: Move to the next step.
+
+eg:
+for (int i = 1; i <= 5; i++) {
+    System.out.println(i);
+    /* The loop will print
+    1
+    2
+    3
+    4
+    5*/
+}
+Explanation:
+i) Initialization (int i = 1): Start with i equal to 1.
+ii) Condition (i <= 5): Keep going as long as i is 5 or less.
+iii) Update (i++): Increase i by 1 each time.
+
+2) while loops 
+=> The Java while loop repeats a part of your program as long as a condition is true. When the 
+condition becomes false, the loop stops.
+
+How a While Loop Works:
+a) Condition: The loop checks if something is true.
+b) Repeat: If it’s true, the loop runs the code inside.
+c) Stop: When it’s false, the loop stops.
+
+eg:
+int i = 1;
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+    /* The loop will print
+    1
+    2
+    3
+    4
+    5*/
+}
+
+Explanation:
+i) Condition (i <= 5): The loop checks if i is 5 or less.
+ii) Repeat: As long as i is 5 or less, the loop prints i and then increases i by 1.
+iii) Stop: When i becomes greater than 5, the loop stops.
+
+3) do-while loop
+=> The Java do-while loop repeats a part of your program until a condition is true. 
+Unlike other loops, it always runs the code inside at least once because it checks the 
+condition after the code runs.
+
+How a Do-While Loop Works:
+a) Run the Code: The loop runs the code inside.
+b) Condition: After running the code, the loop checks if something is true.
+c) Repeat or Stop: If it’s true, the loop repeats. If it’s false, the loop stops.
+
+eg:
+int i = 1;
+do {
+    System.out.println(i);
+    i++;
+    /* The loop will print
+    1
+    2
+    3
+    4
+    5*/
+} while (i <= 5);
+
+Explanation:
+i) Run the Code: The loop starts by printing i and then increasing i by 1.
+ii) Condition (i <= 5): After running the code, the loop checks if i is 5 or less.
+iii) Repeat or Stop: If i is 5 or less, the loop runs again. If i is greater than 5, the loop stop
