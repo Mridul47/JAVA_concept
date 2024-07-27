@@ -1,0 +1,78 @@
+Source: Javatpoint [https://www.javatpoint.com/java-if-else]
+
+Note: Check the code snippet too. The notes in this page belongs to Javatpoint but the code snippet links given below is my own practised code. 
+
+<------------------------------------Java if-else Statement------------------------------------>
+=> The if-else statement in java is used to test the conditions. It checks boolean condition. 
+i.e. true or false. There are various types of if statement in java. Some of them are listed below
+
+1) Java if Statement
+The Java if statement tests the condition. It executes the if block if condition is true.
+
+eg: 
+if(condition){
+    //write code here
+}
+
+Code snippet in: (/JavaProject/src/JavaIfConditional.java)
+
+2) if-else statement
+=> This is also used for testing the conditions. It executes the "if" block if condition is true
+otherwise "else" block is executed.
+
+eg:
+if(condition){
+    //write code here if the condition is true
+}else{
+    //write code here if the condition is false
+}
+
+Code snippet in: (/JavaProject/src/JavaIfelseCondition.java)
+
+3) if- else if -if ladder
+=> This statement executes one condition from multiple statements.
+
+eg:
+if(condition){
+    //executes code here if condition1 is true
+}else if{
+    //executes code here if condition2 is true
+}else if{
+    //executes code here if condition3 is true
+}else{
+    //executes code here if all conditions are false
+}
+
+Code snippet in: (/JavaProject/src/Java_If_ElseIf_IfConditional.java)
+
+4) Nested if statement
+=> This statement represents "if" block within/inside the another "if" block from outside.
+In this scenario, the inner "if" block executes only when the outer "if" block condition is
+true.
+
+eg:
+if(condition){
+    //execute code here
+    if(condition){
+        //execute code here.
+    }
+}
+
+Code snippet in: (/JavaProject/src/NestedIfConditionals.java)
+
+<------------------------------------Using Ternary Operator------------------------------------>
+=> We can also use ternary operator (? :) to perform the task of if...else statement. 
+It is a shorthand way to check the condition. If the condition is true, the result of ? is returned. 
+But, if the condition is false, the result of : is returned.
+
+eg: 
+public class IfElseTernaryExample {    
+public static void main(String[] args) {    
+    int number=13;    
+    //Using ternary operator  
+    String output=(number%2==0)?"even number":"odd number";    
+    System.out.println(output);  
+}    
+}   
+
+Code snippet in: (/JavaProject/src/TernaryOperator_Conditional.java)

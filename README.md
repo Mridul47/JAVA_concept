@@ -14,3 +14,9 @@
 6. JavaVariables.txt
 7. JavaVariableWidening.java (/JavaProject/src/JavaVariableWidening.java)
 8. JavaVariableOverflow.java (/JavaProject/src/JavaVariableOverflow.java)
+9. JavaConditionals.txt
+10. JavaIfConditional.java (/JavaProject/src/JavaIfConditional.java)
+11. JavaIfelseCondition.java (/JavaProject/src/JavaIfelseCondition.java)
+12. Java_If_ElseIf_IfConditional.java (/JavaProject/src/Java_If_ElseIf_IfConditional.java)
+13. NestedIfConditionals.java (/JavaProject/src/NestedIfConditionals.java)
+14. TernaryOperator_Conditional.java (/JavaProject/src/TernaryOperator_Conditional.java)
