@@ -1,0 +1,53 @@
+
+<------------------------------------In-depth for loop in Java------------------------------------>
+=> There are further 3 types of for-loop. They are listed below:
+
+1) Simple for loop
+=> This is just a common for loop. If you know exactly how many times you want to repeat something, 
+it's best to use a for loop.
+
+How a For Loop Works:
+a) Initialization: Set a starting point.
+b) Condition: Decide when to stop.
+c) Update: Move to the next step.
+d) Statement: The statement of the loop is executed each time until the second condition is false.
+
+eg:
+for(i=10; i>20; i++) //(initialization; condition; increment/decrement){
+    //statement of code that needs to be executed
+}
+
+2) Nested for loop
+=> If we have a for loop inside the another loop, it is known as nested for loop. The inner loop 
+executes completely whenever outer loop executes.
+
+code snippet example on: (/JavaProject/src/NestedForLoop.java)
+
+3) for-each loop
+=> The for-each loop is used to go through each item in an array or collection in Java. It is easier 
+to use than a regular for loop because you don't have to worry about counting or using index numbers.
+
+How a For-Each Loop Works:
+a) Go Through Each Item: The loop automatically goes through each item in the array or collection.
+b) Do Something: For each item, you can do something with it.
+
+eg:
+int[] numbers = {1, 2, 3, 4, 5};
+for (int number : numbers) {
+    System.out.println(number);
+    /* The for-each loop will print 
+    1
+    2
+    3
+    4
+    5
+}
+
+Explanation:
+Array (numbers): This is the array we want to go through.
+For-Each Loop (for (int number : numbers)): This loop goes through each number in the numbers 
+array and prints it.
+
+When to Use a For-Each Loop:
+Use a for-each loop when you want to go through all the items in an array or collection easily, 
+without worrying about counting or using index numbers.
