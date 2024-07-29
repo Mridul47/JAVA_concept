@@ -22,3 +22,8 @@
 14. TernaryOperator_Conditional.java (/JavaProject/src/TernaryOperator_Conditional.java)
 15. Introduction_to_JavaLoop.txt
 16. Indepth_forloop
+17. Simpleforloop.java (/JavaProject/src/Simpleforloop.java)
+18. NestedForLoop.java (/JavaProject/src/NestedForLoop.java)
+19. For_Eachloop.java (/JavaProject/src/For_Eachloop.java)
+20. WhileLoop.java (/JavaProject/src/WhileLoop.java)
+21. InfiniteWhileLoop.java(/JavaProject/src/InfiniteWhileLoop.java)
