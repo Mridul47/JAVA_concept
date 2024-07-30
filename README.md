@@ -27,3 +27,4 @@
 19. For_Eachloop.java (/JavaProject/src/For_Eachloop.java)
 20. WhileLoop.java (/JavaProject/src/WhileLoop.java)
 21. InfiniteWhileLoop.java(/JavaProject/src/InfiniteWhileLoop.java)
+22. Infinite_dowhileloop.java (/JavaProject/src/Infinite_dowhileloop.java)
