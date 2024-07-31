@@ -29,3 +29,4 @@
 21. InfiniteWhileLoop.java(/JavaProject/src/InfiniteWhileLoop.java)
 22. Infinite_dowhileloop.java (/JavaProject/src/Infinite_dowhileloop.java)
 23. Intro_To_JavaMethod.txt
+24. JavaMethodIntro_example.java (/JavaProject/src/JavaMethodIntro_example.java)
