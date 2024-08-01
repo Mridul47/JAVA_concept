@@ -30,3 +30,7 @@
 22. Infinite_dowhileloop.java (/JavaProject/src/Infinite_dowhileloop.java)
 23. Intro_To_JavaMethod.txt
 24. JavaMethodIntro_example.java (/JavaProject/src/JavaMethodIntro_example.java)
+25. JavaMethod_Parameters.txt
+26. JavaMethod.java (/JavaProject/src/JavaMethod.java)
+27. JavaMethods_multipleParameter.java (/JavaProject/src/JavaMethods_multipleParameter.java)
+28. JavaMethod_ifElse.java (/JavaProject/src/JavaMethod_ifElse.java)

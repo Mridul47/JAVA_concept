@@ -1,0 +1,53 @@
+Source: (w3schools)[https://www.w3schools.com/java/java_methods_param.asp]
+<------------------------------------Java Methods Parameters and Arguments------------------------------------>
+=>The informations can be passed through the parameter. Parameters acts as a variable inside the method.
+
+
+When writing a method, you can give it information to work with, called parameters. Place these inside the parentheses 
+after the method name and separate multiple parameters with commas.
+
+eg:
+public void greet(String name, int age) {
+    // method code here
+}
+
+Explanation:
+a) Here, 'greet' is the method and 'name' and 'age' are the parameters.
+
+Further eg and Explanation
+public class Main {
+  static void myMethod(String fname) {
+    System.out.println(fname + " Refsnes");
+  }
+
+  public static void main(String[] args) {
+    myMethod("Liam"); //here it prints Liam Refsnes
+    myMethod("Jenny"); //here it prints Jenny Refsnes
+    myMethod("Anja"); //here it prints Anja Refsnes
+  }
+}
+
+Explanation:
+a) Class Definition:
+=> public class Main { defines a class named Main.
+b) Method Definition:
+=> static void myMethod(String fname) { defines a static method myMethod that takes a String parameter fname.
+=>System.out.println(fname + " Refsnes"); prints fname followed by " Refsnes".
+c) Main Method:
+=> public static void main(String[] args) { is the entry point of the program.
+d) Method Calls:
+=> myMethod("Liam"); prints "Liam Refsnes".
+=> myMethod("Jenny"); prints "Jenny Refsnes".
+=> myMethod("Anja"); prints "Anja Refsnes".
+
+<------------------------------------Multiple Parameters------------------------------------>
+=> You can also use multiple parameters as you like
+
+eg:
+
+static void myMethod(String fname, int age) {
+    System.out.println(fname + " is " + age);
+  }
+
+<------------------------------------Methods with If else------------------------------------>
+=> It is common to use if...else statements inside methods:
